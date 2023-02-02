@@ -1,0 +1,16 @@
+Alcance del proyecto:
+
+Lograr un controlador centralizado de vivienda, utilizando la placa de desarrollo NodeMCU, sensores y actuadores.
+El mismo puede ser controlado accediendo mediante cualquier dispositivo inteligente (teléfono, PC, Tablet) accediendo a una dirección IP específica, siendo necesario estar conectado en la misma red. Esto podría ser llevado a otro nivel para lograr acceder desde cualquier lugar con conexión a internet.
+
+El sistema consta de las siguientes funciones:
+
+• Control de luces de diversas habitaciones.
+• Control automático de luces exteriores a través de sensor LDR.
+• Indicación de temperatura y humedad de la vivienda. Mejora posible: encendido automático de sistema de ventilación para cierto valor determinado.
+• Alarma mediante sensor de movimiento infrarrojo pasivo.
+• Alarma ante fuga de gas o incendio mediante sensor de gas combustible/humo. Mejora posible: accionamiento automático de extractores
+• Cierre electrónico de cerradura mediante servomotor. Mejora posible: activación mediante teclado matricial.
+• “Modo vacaciones”. Se activa para que durante ausencias prolongadas, la casa simule que hay movimiento, encendiendo y apagando las luces de las distintas habitaciones en determinadas horas.
+
+
